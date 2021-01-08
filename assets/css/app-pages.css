@@ -1,0 +1,202 @@
+.ratingStars {
+    color: orange;
+}
+
+.heroText {
+    /* margin-top: -5px;
+    margin-bottom: 5px; */
+    font-size: 35px;
+    /* font-style: italic; */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.heroImage {
+    /* max-width: 1000px;
+    max-height: 500px; */
+    width: 100%;
+    /* margin-top: 25px;
+    margin-bottom: 25px; */
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.miniAppIcon {
+    max-width: 80px;
+    /* max-height: 75px; */
+    display: inline-block;
+}
+
+.appLabel{
+    padding: 2.5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.centercolumn {
+    float: none;
+    text-align: center;
+    margin: auto;
+}
+
+.featureRow {
+    padding: 7.5px;
+    /* text-align: center; */
+    /* margin-top: 15px; */
+    margin-bottom: 40px;
+}
+
+.featureRow:after {
+    box-sizing: border-box;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    /* Override regular padding, previously: 2x2 0 vertically, 1x1 7.5 vertically */
+    padding: 10px;
+}
+
+.sectionText {
+    /* margin-top: -5px;
+    margin-bottom: 5px; */
+    font-size: 25px;
+    /* font-style: italic; */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.featureText {
+    /* margin-top: -5px;
+    margin-bottom: 5px; */
+    font-size: 20px;
+    /* font-style: italic; */
+    font-weight: bold;
+    /* text-align: center; */
+    /* margin-top: 25px; */
+    /* padding: 2px; */
+    /* margin-bottom: 5px; */
+    /* align-content: center; */
+}
+
+.featureImage {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.featureIcon {
+    /* color: blue; */
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* max-height: 18px; */
+}
+
+.subtitle {
+    color: gray;
+    margin-left: 55px;
+}
+
+.caption {
+    color: gray;
+}
+
+h1 {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 45px;
+    line-height: 100%;
+}
+
+.centeredText {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.rightAligned {
+    text-align: right;
+    font-size: 15px;
+}
+
+.embedded {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+
+.column3 {
+    float: left;
+    width: 33%;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+.column4 {
+    float: left;
+    width: 25%;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+.column6 {
+    float: left;
+    width: 16.6%;
+    padding: 7.5px;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+    .column3 {
+        float: left;
+        width: 50%;
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+    }
+    .column4 {
+        width: 33%;
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+    }
+    .column6 {
+        width: 25%;
+    }
+}
+
+/* Responsive layout */
+@media screen and (max-width: 400px) {
+    .column3 {
+        float: left;
+        width: 100%;
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+    }
+    .column4 {
+        width: 50%;
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+    }
+    .column6 {
+        width: 33%;
+    }
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+.textBox::after {
+    clear: both;
+}
