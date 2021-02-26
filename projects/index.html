@@ -3,12 +3,28 @@
 
 <head>
     <title>Duncan Crawbuck: Projects</title>
-    <!-- Stylesheets -->
-    <link href="../assets/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <meta name="description" content="Projects including: a React Web Application, iOS App, compiler, and more."/>
 
     <!-- Responsive Web Design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <!-- Open Graph -->
+    <meta property="og:title" content="Duncan Crawbuck: Projects">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://crawbuck.com/projects/">
+    <meta property="og:image" content="https://crawbuck.com/assets/cards/projects-card.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Duncan Crawbuck's Project Portfolio">
+    <meta property="og:description" content="Projects including: a React Web Application, iOS App, compiler, and more.">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@dcrawbuck" />
+
+    <!-- Stylesheets -->
+    <link href="../assets/css/style.css" rel="stylesheet" type="text/css" media="all">
 </head>
 
 <body>
@@ -47,11 +63,11 @@
                 </div>
 
                 <div class="detailText">
-                    A React web application to compare spray patterns from a MongoDB database of sprinkler data, with
+                    A year-long, Scrum-based team project to develop software following client specification, including biweekly end-of-sprint meetings with the client and a faculty advisor.
+                    Delivered a React web application that compares spray patterns from a MongoDB database of sprinkler data, with
                     database navigation and user login/authentication.
                     I personally oversaw the implementation of an interactive d3.js visualization in the React
                     application. 
-                    Developed as a year-long Scrum-based team project to develop and deliver software following client specification, and included biweekly end-of-sprint meetings with the client and a faculty advisor.
                     <i>Website is now owned and operated by Fire & Risk Alliance.</i>
                 </div>
 
@@ -88,21 +104,22 @@
     <div class="row">
         <div class="mainColumn">
             <div class="information">
-                <img class="icon" src="../assets/images/app-icon-collection.png" alt="App Icons">
+                <img class="icon" src="../assets/images/app-icon-collection.png" alt="Simple & Classic Games App Icons">
 
                 <h2>
-                    iOS & Mac Apps
+                    Simple & Classic Games
                 </h2>
 
                 <div class="detailText">
-                    Developed games including Solitaire and Minesweeper and sold them on the iOS and Mac App Store.
-                    Independently learned Swift, UIKit, and SwiftUI in the process.
+                    Developed a collection of games including Solitaire and Minesweeper and sold them on the iOS and Mac App Store.
+                    Built using Swift, UIKit, and SwiftUI to produce modern and powerful applications.
+                    Utilized automated testing, continuous deployment, and TestFlight beta testing for rapid iteration and streamlined development.
                 </div>
 
                 <div class="sharedDrawer">
                     <div class="buttonDrawer">
                         <div class="pillButton">
-                            <a class="active" href="../apps/index.html">
+                            <a class="active" href="../apps/simple-and-classic-games/index.html">
                                 More Details
                             </a>
                         </div>
@@ -128,39 +145,44 @@
         </div>
     </div>
 
-    <!-- CSC 131 GROUP PROJECT -->
+    <!-- Good Boy Detector -->
     <div class="row">
         <div class="mainColumn">
             <div class="information">
+                <img class="icon" src="../assets/images/dog-detector-icon.png" alt="Dog Detector App Icon">
+
                 <h2>
-                    Pirex &ndash; Information Retrieval Tool
+                    Dog Detector
                 </h2>
 
-                <div class="subtitleText">
-                    Group project for CSC 131 (Computer Software Engineering) at CSUS
-                </div>
-
                 <div class="detailText">
-                    A Java-based document indexer and search application with a graphical user interface developed
-                    according to a provided specification.
-                    Followed the Scrum process and utilized shared version control.
+                    A playful app that uses machine learning and computer vision to identify dogs and "detect" their mood.
+                    Integrates an advanced dog detection algorithm with an emoji-based overlay to produce an augmented reality view that can find dogs of all kinds.
+                    Built using Swift, Vision, SpriteKit, and SwiftUI.
+                    Currently in beta, you really have to try it to believe it!
                 </div>
 
                 <div class="sharedDrawer">
                     <div class="buttonDrawer">
                         <div class="pillButton">
-                            <a class="active" href="https://github.com/Talal916/Pirex">
-                                GitHub Repo
+                            <a class="active" href="../apps/dog-detector/index.html">
+                                More Details
                             </a>
                         </div>
                     </div>
 
                     <div class="labelDrawer">
                         <div class="pillLabel">
-                            Java
+                            Swift
                         </div>
                         <div class="pillLabel">
-                            Scrum
+                            Vision
+                        </div>
+                        <div class="pillLabel">
+                            SwiftUI
+                        </div>
+                        <div class="pillLabel">
+                            SpriteKit
                         </div>
                     </div>
                 </div>
@@ -173,6 +195,8 @@
     <div class="row">
         <div class="mainColumn">
             <div class="information">
+                <img class="preview" src="../assets/images/baby-c-compiler-preview.png" alt="Baby C Compiler program running on the command line">
+
                 <h2>
                     Baby C Compiler
                 </h2>
@@ -182,8 +206,9 @@
                 </div> 
 
                 <div class="detailText">
-                    Parses and generates ILOC code for "Baby" C (simplified C style code, with if/else and while loops).
-                    Generates an abstract syntax tree, fills symbol table for declared variables.
+                    Compiler that parses simplified C-style code and produces ILOC assembly.
+                    Generates an abstract syntax tree and fills a symbol table with declared variables.
+                    Built to handle variable declarations, expressions, if/else statements, and while loops.
                     Written in C and uses the Bison parser and flex scanner.
                 </div>
 
@@ -213,21 +238,66 @@
         </div>
     </div>
 
+    <!-- CSC 131 GROUP PROJECT -->
+    <div class="row">
+        <div class="mainColumn">
+            <div class="information">
+                <img class="preview" src="../assets/images/pirex-preview.png" alt="Wireframe Mockup of Pirex Application">
+
+                <h2>
+                    Pirex &ndash; Information Retrieval Tool
+                </h2>
+
+                <div class="subtitleText">
+                    Project for CSC 131 (Computer Software Engineering) at CSUS
+                </div>
+
+                <div class="detailText">
+                    A collaborative group project that developed software according to a provided specification.
+                    Built a Java-based document indexer and search application with a graphical user interface.
+                    Personally oversaw the use of the Scrum process and shared version control.
+                </div>
+
+                <div class="sharedDrawer">
+                    <div class="buttonDrawer">
+                        <div class="pillButton">
+                            <a class="active" href="https://github.com/Talal916/Pirex">
+                                GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="labelDrawer">
+                        <div class="pillLabel">
+                            Java
+                        </div>
+                        <div class="pillLabel">
+                            Scrum
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <!-- ASSEMBLY PROJECT -->
     <div class="row">
         <div class="mainColumn">
             <div class="information">
+                <img class="preview" src="../assets/images/file-encrypt-decrypt-preview.png" alt="File-Encrypt-Decrypt program running on the command line">
                 <h2>
                     File-Encrypt-Decrypt
                 </h2>
 
                 <div class="subtitleText">
-                    Project for CS 21 (Computer Organization and Assembly Language Programming) at Las Positas College
+                    Project for CS 21 (Assembly Language Programming) at Las Positas College
                 </div> 
 
                 <div class="detailText">
-                    A Linux command line program to save data into an encrypted file with the ability to read it back and decrypt it.
-                    Split into two executable files: one to encrypt and save data to file, and one to read from a file and decrypt.
+                    A Linux command line program to store data in an encrypted file with the ability to decrypt it and read it back.
+                    Source code is thoroughly documented for readibility.
+                    Split into two executables: one to encrypt and save data to file, and one to read from a file and decrypt.
                 </div>
 
                 <div class="sharedDrawer">
