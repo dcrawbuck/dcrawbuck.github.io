@@ -107,7 +107,8 @@ ul li:before{
 .icon {
     max-width: 150px;
     float: left;
-    padding-right: 15px;
+    /* padding-right: 15px; */
+    margin-right: 15px;
 }
 
 .miniicon {
@@ -164,6 +165,16 @@ ul li:before{
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.inlineIcon {
+    vertical-align: text-bottom;
+    /* margin-right: 5px; */
+}
+
+.inlineMiddleIcon {
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 .pillLabel {
@@ -226,12 +237,24 @@ a {
 .row {
     padding: 7.5px;
 }
+.middleRow {
+    padding: 7.5px;
+    vertical-align: middle;
+    
+}
 /* Create two equal columns that floats next to each other */
 .column {
     float: left;
     width: 50%;
     padding-left: 7.5px;
     padding-right: 7.5px;
+}
+.middleColumn {
+    float: left;
+    width: 50%;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    vertical-align: middle;
 }
 
 .mainColumn {

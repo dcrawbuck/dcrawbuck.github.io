@@ -23,6 +23,21 @@
     border-radius: 15px;
 }
 
+.heroFloatImage {
+    max-width: 50vw;
+    /* max-height: 90vh; */
+    /* max-width: 500px; */
+    max-height: 750px;
+    /* width: 100%; */
+    width: auto;
+    height: auto;
+    padding: 10px;
+    /* margin-top: 25px;
+    margin-bottom: 25px; */
+    /* margin: 25px; */
+    /* border-radius: 15px; */
+}
+
 .miniAppIcon {
     max-width: 80px;
     /* max-height: 75px; */
@@ -59,6 +74,7 @@
 .column {
     /* Override regular padding, previously: 2x2 0 vertically, 1x1 7.5 vertically */
     padding: 10px;
+    text-align: left;
 }
 
 .sectionText {
@@ -154,6 +170,14 @@ h1 {
     padding: 7.5px;
 }
 
+
+@media screen and (max-height: 833px) {
+    /* Max height = 90% vh up to 750 px max*/
+    .heroFloatImage {
+        max-height: 90vh;
+    }
+}
+
 /* Responsive layout */
 @media screen and (max-width: 600px) {
     .column3 {
@@ -169,6 +193,9 @@ h1 {
     }
     .column6 {
         width: 25%;
+    }
+    .heroFloatImage {
+        max-width: 90vw;
     }
 }
 
